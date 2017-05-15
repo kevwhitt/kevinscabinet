@@ -1,0 +1,13 @@
+/* font and spacing */
+h1, ul, ol {font-family: sans-serif}
+
+h1 {
+	
+}
+
+nav li
+{
+	display: inline;
+	margin-right: 1em;
+
+}
