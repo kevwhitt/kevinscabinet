@@ -34,16 +34,17 @@ ul {
 	display: flex;
 }
 
-ul.nav {
+nav ul{
 	/* make the nav bar more accessible */
-	position: fixed;
+	margin-top: 3em;
+	margin-bottom: 3em;
 	bottom: 0;
 	left: 0;
 	right: 0;
 }
 
 ul.foots {
-	margin-bottom: 3em;
+	margin-bottom: 1.5em;
 }
 
 li {
@@ -56,4 +57,12 @@ h3 {
 text-align: right;
 margin-top: 0.5em;	
 margin-right: 3em;
+}
+
+section.current-conditions {
+	text-align: center
+}
+
+section.hourly {
+	text-align: center;
 }
