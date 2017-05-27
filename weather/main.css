@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
 * {
 	box-sizing: border-box;    /* changes width property to total width instead of content width */
 
@@ -15,10 +17,37 @@ figure {
 	display: block;   /* just in case we have any older browsers that don't recognize the HTML5 semantic elements */
 }
 
+.condish {
+	border: 1px solid sienna;
+	padding: .5em;
+	margin: 1em;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rightnow {
+	border: 1px solid sienna;
+	padding: .5em;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 body {
-	margin: 0;  /* remove any margin from body to avoid unsightly gaps. */
-	padding: 0;  /* ditto for padding  */
-	background-color: salmon;    
+	margin: -1px;  /* remove any margin from body to avoid unsightly gaps. */
+	background-color: salmon; 
+	font-family: "Helvetica";
+	background: url(images/MQy6rhu.jpg);
+	background-size: cover;
+	
+}
+
+/* added a nice background color */
+header, footer {
+	background-color: #A6D8DB;
 }
 
 main {
@@ -41,6 +70,17 @@ nav ul{
 	bottom: 0;
 	left: 0;
 	right: 0;
+	/* made it look pretty */
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	font-size: 1em;
+		background-color: #F07C6C;
+	}
+
+nav a:link {
+	text-decoration: none;
+	color: #47556F;
 }
 
 ul.foots {
@@ -50,6 +90,15 @@ ul.foots {
 li {
 	/* seperate the list items */
 	padding: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Sansita, "second choice", generic-family;
 }
 
 h3 {
@@ -65,4 +114,8 @@ section.current-conditions {
 
 section.hourly {
 	text-align: center;
+}
+
+p {
+	margin: 5px;
 }
