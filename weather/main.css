@@ -71,16 +71,15 @@ main {
 	align-items: center; 
 }
 
-
 ul {
 	/* remove bullets and get it organized */
 	list-style-type: none;
 	display: flex;
-	justify-content: stretch;
+	align-content: stretch;
 	
 }
 
-nav ul{
+nav ul {
 	/* make the nav bar more accessible */
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -95,7 +94,7 @@ nav ul{
 	font-size: 1em;
 	background-color: #F07C6C;
 	
-	}
+}
 
 nav a:link {
 	text-decoration: none;
@@ -110,12 +109,15 @@ li {
 	/* seperate the list items */
 	padding: 0.5em;
 	display: flex;
-	
 }
 
-h1,
+section.franklin {
+	font-family: Sansita, "second choice", generic-family;
+	font-size: 1.3em;
+}
+
+
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -133,6 +135,10 @@ margin-top: 0.5em;
 margin-right: 3em;
 }
 
+info h3 {
+	font-family: Sansita, "second choice", generic-family;
+}
+
 section.current-conditions {
 	text-align: center
 }
@@ -146,8 +152,14 @@ p {
 		width: 20em;
 	}
 	
-	nav {
-		
+	.info {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	ul.nav {
+		display: flex;
+		align-items: flex-start;
 		
 	}
 	

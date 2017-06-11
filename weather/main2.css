@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.greenville {
+	font-family: 'Varela Round', sans-serif;
+}
+
+
+
+.greenville div {
+	font-family: 'Varela Round', sans-serif;
+	border: 1px solid sienna;
+	border-radius: 10px;	
+	padding: .5em;
+	color: #F07C6C;
+}
+
+.colors {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.color-swatch {
+	border: 1px solid;
+	height: 250px;
+	border-radius: 10px;
+	flex: 0 1 25%;
+}
+.color-swatch__color {
+	width: 100%;
+	height: 80px;
+	border-radius: 10px 10px 0 0;
+}
+.color-swatch__primary {
+	background-color: aquamarine;
+}
+.color-swatch__secondary {
+	background-color: #F01C6C;
+}
+.color-swatch__description {
+	padding: .5em;
+}
+
+
