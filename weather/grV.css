@@ -19,7 +19,7 @@ figure {
 }
 
 .condish {
-	border: 1px solid sienna;
+	border: 1px solid orange;
 	border-radius: 12px;
 	width: 95vw;
 	padding: .5em;
@@ -29,7 +29,7 @@ figure {
 }
 
 .rightnow {
-	border: 1px solid sienna;
+	border: 1px solid orange;
 	border-radius: 12px;
 	padding: 0.5em;
 	margin: 0.25em;
@@ -41,7 +41,7 @@ figure {
 
 .hourly {
 	text-align: center;
-	border: 1px solid sienna;
+	border: 1px solid orange;
 	border-radius: 12px;
 	max-height: 12em;
 	overflow: auto;
@@ -53,7 +53,7 @@ body {
 	margin: -1px;  /* remove any margin from body to avoid unsightly gaps. */
 	background-color: salmon; 
 	font-family: "Helvetica";
-	background: url(images/MQy6rhu.jpg);
+	background: url(images/blue-wallpaper-6.jpg);
 	background-size: cover;
 
 }
@@ -75,27 +75,23 @@ ul {
 	/* remove bullets and get it organized */
 	list-style-type: none;
 	display: flex;
-	align-content: stretch;
+	align-content: center;
 
 }
 
-nav ul {
+ul.nav {
 	/* make the nav bar more accessible */
-	margin-top: 2em;
-	margin-bottom: 2em;
-	padding-right: 40px;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-right: 30px;
+	width: 95vw;
 	/* made it look pretty */
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
 	font-size: 1em;
 	background-color: #F07C6C;
-
+	display: flex;
+	justify-content: center;
+		
 }
-
 nav a:link {
 	text-decoration: none;
 	color: #47556F;
@@ -181,8 +177,14 @@ p {
 	}
 
 	.rightnow {
+		border: 1px solid sienna;
+		border-radius: 12px;
+		padding: 0.5em;
+		margin: 0.25em;
+		width: 95vw;
 		display: flex;
-		order: 1;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.condish {
