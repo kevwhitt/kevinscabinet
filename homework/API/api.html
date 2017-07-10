@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type='text/css' href='starWars.css'>
+	<title>Starship Getter</title>
+	<script src='request.js'>
+	</script>
+</head>
+
+<body>
+	<header>
+		<h1>Starship Hanger</h1>
+		<p>This HTML page supplies an example of getting data in JSON format from an external API. Star Wars starship names will be displayed with clickable links to their respective urls with all their info there. Please click the button.</p>
+	</header>
+	<main>
+		<ul>
+			<li id="ships"></li>
+		</ul>
+	</main>
+	<button type="button" onclick="fetchShips()">Get Ships</button>
+</body>
+
+</html>
