@@ -10,7 +10,7 @@ function getJSON(url) {
 //lets get some ships
 function fetchShips() {
 	for (var i = 1; i < 50; i++) {
-		var url = "http://swapi.co/api/starships/" + i + "/";
+		var url = "https://swapi.co/api/starships/" + i + "/";
 		//call getJSON function to get the list of ships from the api
 		getJSON(url).then(function (json) {
 			for (var property in json) {
