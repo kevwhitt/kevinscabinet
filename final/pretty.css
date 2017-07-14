@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+* {
+	box-sizing: border-box;    /* changes width property to total width instead of content width */
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Muli', sans-serif;
+}
+
+#header {
+	font-family: 'Allerta Stencil', sans-serif;
+	color: #deb889;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	text-decoration: underline;
+}
+
+#me {
+	width: 95%;
+	height: 575px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+#drinkies {
+	width: 49%;
+	height: 250px;
+}
+
+#foodsies {
+	width: 49%;
+	height: 250px;
+	float: right;
+}
+
+#dyi-home {
+	width: 80%;
+	height: 250px;
+	margin-left: 9.5%;
+}
+
+body {
+	background-color: #8BB0B8;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	margin-top: 0.2em;
+}
+
+nav ul {
+	display: block;
+	bottom: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #A72D0F;
+	position: relative;
+	
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: none;
+	border-bottom: 0.7px solid #bbb;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	font-size: 1.1em;
+	padding: 10.5px 12px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #deb889;
+}
+
+img {
+	display: inline;
+	margin-top: 0.3em;
+	border-color: black;
+}
+
+#pink-lady {
+	width: 30%;
+}
+
+section.me-me-me {
+	font-family: 'Muli', sans-serif;
+	text-indent: 30px;
+	text-align: left;
+}
