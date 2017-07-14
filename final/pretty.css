@@ -27,6 +27,8 @@ h4 {
 	height: 575px;
 	display: block;
 	margin: 0 auto;
+	max-height: 400px;
+	max-width: 200px;
 	
 }
 
@@ -98,6 +100,7 @@ img {
 	display: inline;
 	margin-top: 0.3em;
 	border-color: black;
+	border-radius: 5%;
 }
 
 #pink-lady {
