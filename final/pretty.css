@@ -24,6 +24,8 @@ h4 {
 
 #me {
 	width: 95%;
+	max-width: 200px;
+	max-height: 300px;
 	height: 575px;
 	display: block;
 	margin: 0 auto;
@@ -47,6 +49,24 @@ h4 {
 	width: 80%;
 	height: 250px;
 	margin-left: 9.5%;
+}
+
+#drunk {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#eat {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 body {
@@ -104,11 +124,90 @@ img {
 }
 
 #pink-lady {
-	width: 30%;
+	
+	height: 400px;
 }
+
+#mountain-dews {
+	width: 65%;
+	height: 300px;
+}
+
+#oceanW {
+	height: 300px;
+}
+
+#cherries {
+	height: 300px;
+}
+
+#chilli {
+	width: 80%;
+}
+
+#sticks {
+	height: 300px;
+	width: 80%;
+}
+
+#pork {
+	margin-bottom: 10px;
+	height: 300px;
+	width: 90%;
+}
+
+#club {
+	margin-bottom: 10px;
+	height: 300px;
+}
+
+#buffalo {
+	width: 80%;
+	height: 350px;
+}
+
+#muddy {
+	width: 80%;
+	height: 250px;
+}
+
+#churro {
+	width: 70%;
+	height: 350px;
+}
+
+#scotch {
+	width: 70%;
+	height: 300px;
+	margin-bottom: 10px;
+}
+
 
 section.me-me-me {
 	font-family: 'Muli', sans-serif;
 	text-indent: 30px;
 	text-align: left;
+}
+
+
+@media(min-width: 650px) {
+	section.guide {
+		display: inline-block;
+		justify-content: center;
+	}
+	
+	#drinkies {
+		max-width: 48%;
+	}
+	
+	#dyi-home {
+		max-width: 65%;
+		margin-top: 15px;
+		margin-left: 17.5%;
+		margin-right: 17.5%;
+	}
+	
+	section.guide img {
+		border: 0.5px solid black;
+	}
 }

@@ -1,24 +1,23 @@
-
-	"drinks": [
-		{"drinkName" : "Pink Lady", "contents" : "Sprite, Cherry flavoring, Cream, Vanilla"},
-		{"drinkName" : "Baja Blast", "contents" : "Mountain Dew, Blue Powerade"},
-		{"drinkName" : 'Ocean Water', 'contents' : 'Sprite, Blue coconut flavoring'},
-		{"drinkName" : 'Cherry Limeade', 'contents' : "Squeezed limes (the real stuff), Cherry flavoring, Sonic's famous pellet ice"},
+	drinks = [
+		{"drinkName" : "Pink Lady", "contents" : "Sprite, cherry flavoring, cream, Sonic's famous pellet ice", "location" : "Sonic"},
+		{"drinkName" : "Baja Blast", "contents" : "Mountain Dew, Blue Powerade", "location" : "Taco Bell"},
+		{"drinkName" : "Ocean Water", "contents" : "Sprite, blue coconut flavoring", "location" : "Sonic"},
+		{"drinkName" : "Cherry Limeade", "contents" : "Squeezed limes (the real stuff), cherry flavoring, Sonic's famous pellet ice", "location" : "Sonic"},
 		
 	]
 	
-	"foods": [
-		{foodName : 'Chilli-Cheese Fries', 'contents' : 'French fries, Chilli, Melted cheese (usually on the top)'},
-		{foodName : 'Mozzarella Cheese Sticks', 'contents' : 'Mozzarella Cheese, Mixture of flour, egg, and breadcrumbs, Various seasonings, and marinara sauce (optional)'},
-		{foodName : 'Sweet Pork Nachos', 'contents' : 'Tortilla chips, shredded cheese, queso, beans, sweet pork, and other extra flavorings (i.e. sour cream, pico de gallo, etc.)'},
-		{foodName : 'San-Fransisco Club', 'contents' : 'Sourdough bread, ham, turkey, bacon, mayo, lettuce, tomato, swiss and American cheese'}
+	foods = [
+		{"foodName" : "Chilli-Cheese Fries", "contents" : "French fries, chilli, melted cheese (usually on the top)", "location" : "Sonic"},
+		{"foodName" : "Mozzarella Cheese Sticks", "contents" : "Mozzarella cheese, mixture of flour, egg, and breadcrumbs, various seasonings, and marinara sauce (optional)", "location" : "Sonic"},
+		{"foodName" : "Sweet Pork Nachos", "contents" : "Tortilla chips, shredded cheese, queso, beans, sweet pork, and other extras (i.e. sour cream, pico de gallo, etc.)", "location" : "Costa Vida"},
+		{"foodName" : "San-Fransisco Club", "contents" : "Sourdough bread, ham, turkey, bacon, mayo, lettuce, tomato, swiss and American cheese", "location" : "Frontier Pies"}
 		]
 	
-	"dyi": [
-		{homeName : 'Buffalo chicken quesadilla', 'ingredients' : 'Flour tortilla, Mexican blend cheese, shredded chicken, mixture of ranch dressing and buffalo sauce'},
-		{homeName : 'Muddy Buddies', 'ingredients' : 'Rice Chex cereal, chocolate chips, peanut butter, butter, vanilla extract, powdered sugar'},
-		{homeName : 'Churro popcorn', 'ingredients' : 'Popcorn, butter, sugar, cinnamon, light corn syrup, vanilla extract, powdered sugar'},
-		{homeName : 'Schotcharoos', 'ingredients' : 'Rice Crispys, light corn syrup, sugar, peanut butter, chocolate chips, butterscotch chips'}
+	dyi = [
+		{"homeName" : "a Buffalo chicken quesadilla", "ingredients" : "Flour tortilla, Mexican blend cheese, shredded chicken, mixture of ranch dressing and buffalo sauce"},
+		{"homeName" : "Muddy Buddies", "ingredients" : "Rice Chex cereal, chocolate chips, peanut butter, butter, vanilla extract, powdered sugar"},
+		{"homeName" : "Churro popcorn", "ingredients" : "Popcorn, butter, sugar, cinnamon, light corn syrup, vanilla extract, powdered sugar"},
+		{"homeName" : "Schotcharoos", "ingredients" : "Rice Crispys, light corn syrup, sugar, peanut butter, chocolate chips, butterscotch chips"}
 	
 		
 	]

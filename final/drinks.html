@@ -5,9 +5,17 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href='pretty.css'>
-
-		<title>Kevin's Cubby</title>
+		<title>Kevin's Cabinet</title>
+		<script type="text/javascript" src="eatables.json"></script>
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 		<script>
+		
+			
+			function getDrink(num) {
+				var drink = jQuery.parseJSON(JSON.stringify(drinks));
+				window.alert("This is the " + drink[num].drinkName + '\n' + "What's in it? " + drink[num].contents + '\n' + "Where can you find it? " + drink[num].location);
+			}
+			
 		</script>
 
 	</head>
@@ -23,9 +31,13 @@
 		<main>
 			<h4>Here is a short list of some of my favorite drinks. Click on an image to see the drinks' contents and location where you can find them (a hint: almost all of them are from Sonic).</h4>
 			
-			<ul id='drinkables'>
-			<li><img src="pink-lady.jpeg" alt="Pink-Lady" id="pink-lady"></li>
-			</ul>
+			<section id="drunk">
+				<img onClick='getDrink(0)' src="pink-lady.jpeg" alt="Pink-Lady" id="pink-lady">
+				<img onClick='getDrink(1)' src='baja-blast.jpg' alt="Mountain-Dew" id="mountain-dews">
+				<img onclick="getDrink(2)" src="ocean.png" alt="Ocean-Water" id="oceanW">
+				<img onClick='getDrink(3)' src="cherryL.png" alt='Cherry-Limeade' id="cherries">
+				
+			</section>
 
 
 			<nav id='nav'>
@@ -33,7 +45,7 @@
 					<li><a href='../index.html'>Home</a></li>
 					<li><a href='drinks.html'>Delicious Drinkies</a></li>
 					<li><a href='snacks.html'>Yummy Foods</a></li>
-					<li><a href='at-home'>DYI Foods</a></li>
+					<li><a href='at-home.html'>DYI Foods</a></li>
 					<li><a href='about-me.html'>About me</a></li>
 				</ul>
 			</nav>

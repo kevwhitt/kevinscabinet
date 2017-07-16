@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href='pretty.css'>
+		<title>Kevin's Cabinet</title>
+		<script type="text/javascript" src="eatables.json"></script>
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+		<script>
+
+
+			function getDYI(num) {
+				var house = jQuery.parseJSON(JSON.stringify(dyi));
+				window.alert("This is " + house[num].homeName + '\n' + "What do you need?" + house[num].ingredients);
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<header>
+			<h1 id='header'>DYI Foods</h1>
+
+
+		</header>
+
+		<main>
+			<h4>Here is a short list of some of my favorite things to make at home. Click on an image to see the what is it called and what ingredients you would need to make it.</h4>
+
+			<section id="home">
+				<img onClick='getDYI(0)' src="buffalo.jpg" alt="Buffalo-chicken" id="buffalo">
+				<img onClick='getDYI(1)' src='mud.jpg' alt="Muddy-Buddies" id="muddy">
+				<img onclick='getDYI(2)' src="churro.jpg" alt="Churro-popcorn" id="churro">
+				<img onClick='getDYI(3)' src="scotch.jpg" alt='Scotcharoos' id="scotch">
+
+			</section>
+
+
+			<nav id='nav'>
+				<ul>
+					<li><a href='../index.html'>Home</a></li>
+					<li><a href='drinks.html'>Delicious Drinkies</a></li>
+					<li><a href='snacks.html'>Yummy Foods</a></li>
+					<li><a href='at-home.html'>DYI Foods</a></li>
+					<li><a href='about-me.html'>About me</a></li>
+				</ul>
+			</nav>
+		</main>
+
+		<footer>
+
+
+		</footer>
+
+	</body>
+
+</html>
