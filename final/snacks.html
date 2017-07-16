@@ -1,61 +1,40 @@
 <!doctype html>
 <html lang="en-us">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href='pretty.css'>
-		<title>Kevin's Cabinet</title>
-		<script type="text/javascript" src="eatables.json"></script>
-		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-		<script>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href='pretty.css'>
+	<title>Kevin's Cabinet - Food</title>
+	<script type="text/javascript" src="eatables.json"></script>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script>
+		function getFood(num) {
+			var food = jQuery.parseJSON(JSON.stringify(foods));
+			window.alert("This is the " + food[num].foodName + '\n' + "What's in it? " + food[num].contents + '\n' + "Where can you find it? " + food[num].location);
+		}
+	</script>
+</head>
 
-
-			function getFood(num) {
-				var food = jQuery.parseJSON(JSON.stringify(foods));
-				window.alert("This is the " + food[num].foodName + '\n' + "What's in it? " + food[num].contents + '\n' + "Where can you find it? " + food[num].location);
-			}
-
-		</script>
-
-	</head>
-
-	<body>
-
-		<header>
-			<h1 id='header'>Yummy foods</h1>
-
-
-		</header>
-
-		<main>
-			<h4>Here is a short list of some of my favorite foods to buy. Click on an image to see the food's contents and the location where you can find it.</h4>
-
-			<section id="eat">
-				<img onClick='getFood(0)' src="chilli.png" alt="Chilli" id="chilli">
-				<img onClick='getFood(1)' src='sticks.png' alt="Mozzarella-sticks" id="sticks">
-				<img onclick="getFood(2)" src="pork.png" alt="Sweet pork nachos" id="pork">
-				<img onClick='getFood(3)' src="cocos-club-sandwich.jpg" alt='San-Fran' id="club">
-
-			</section>
-
-
-			<nav id='nav'>
-				<ul>
-					<li><a href='../index.html'>Home</a></li>
-					<li><a href='drinks.html'>Delicious Drinkies</a></li>
-					<li><a href='snacks.html'>Yummy Foods</a></li>
-					<li><a href='at-home.html'>DYI Foods</a></li>
-					<li><a href='about-me.html'>About me</a></li>
-				</ul>
-			</nav>
-		</main>
-
-		<footer>
-
-
-		</footer>
-
-	</body>
+<body>
+	<header>
+		<h1 id='header'>Yummy foods</h1> </header>
+	<main>
+		<h4>Here is a short list of some of my favorite foods to buy. Click on an image to see the food's contents and the location where you can find it.</h4>
+		<section id="eat"> <img onClick='getFood(0)' src="chilli.png" alt="Chilli" id="chilli"> <img onClick='getFood(1)' src='sticks.png' alt="Mozzarella-sticks" id="sticks"> <img onclick="getFood(2)" src="pork.png" alt="Sweet pork nachos" id="pork"> <img onClick='getFood(3)' src="cocos-club-sandwich.jpg" alt='San-Fran' id="club"> </section>
+		<nav id='nav'>
+			<ul>
+				<li><a href='../index.html'>Home</a></li>
+				<li><a href='drinks.html'>Delicious Drinkies</a></li>
+				<li><a href='snacks.html'>Yummy Foods</a></li>
+				<li><a href='at-home.html'>DYI Foods</a></li>
+				<li><a href='about-me.html'>About me</a></li>
+			</ul>
+		</nav>
+	</main>
+	<footer>
+		<p>Kevin Whittaker
+			<br> Last updated - 07-15-2017</p> <a href="../home.html">Homework</a> </footer>
+</body>
 
 </html>

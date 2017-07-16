@@ -24,13 +24,14 @@ h4 {
 
 #me {
 	width: 95%;
-	max-width: 200px;
+	max-width: 300px;
 	max-height: 300px;
 	height: 575px;
 	display: block;
 	margin: 0 auto;
 	max-height: 400px;
-	max-width: 200px;
+	max-width: 300px;
+	border: 0.5px solid black;
 	
 }
 
@@ -51,7 +52,7 @@ h4 {
 	margin-left: 9.5%;
 }
 
-#drunk {
+.drunk {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -196,8 +197,43 @@ section.me-me-me {
 		justify-content: center;
 	}
 	
+	#nav ul li {
+		display: inline-block;
+		list-style-type: none;
+		text-align: center;
+	}
+	
 	#drinkies {
-		max-width: 48%;
+		max-width: 38%;
+		margin-left: 75px;
+	}
+	
+	#foodsies {
+		max-width: 38%;
+		margin-right: 75px;
+	}
+	
+	#dyi-home {
+		max-width: 45%;
+	}
+	
+	#me {
+		max-width: 350px;
+		border: 0.5px solid black;
+	}
+	
+	.drunk {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	#pink-lady {
+		margin-bottom: 15px;
+	}
+	
+	#mountain-dews {
+		max-width: 400px;
+		margin-left: 40px;
 	}
 	
 	#dyi-home {
@@ -208,6 +244,73 @@ section.me-me-me {
 	}
 	
 	section.guide img {
+		border: 0.5px solid black;
+	}
+	
+	#eat {
+		display: flex;
+		flex-direction: row;
+		margin-left: 15px;
+	}
+	
+	#chilli {
+		max-width: 250px;
+		max-height: 250px;
+	}
+	
+	#sticks {
+		max-width: 250px;
+		max-height: 250px;
+		margin-left: 20px;
+		margin-right: 5px;
+	}
+	
+	#pork {
+		max-width: 330px;
+		max-height: 275px;
+		margin-right: 10px;
+		margin-left: 10px;
+		border: 0.5px solid black;
+	}
+	
+	#club {
+		max-width: 330px;
+		max-height: 275px;
+		margin-left: 10px;
+		border: 0.5px solid black;
+	}
+	
+	#home {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	#buffalo {
+		max-width: 300px;
+		max-height: 325px;
+		border: 0.5px solid black;
+		margin-bottom: 10px;
+	}
+	
+	#muddy {
+		max-width: 350px;
+		max-height: 350px;
+		margin-left: 5px;
+		border: 0.5px solid black;
+	}
+	
+	#churro {
+		max-width: 350px;
+		max-height: 325px;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		border: 0.5px solid black;
+	}
+	
+	#scotch {
+		max-width: 250px;
+		max-height: 350px;
+		margin-left: 5px;
 		border: 0.5px solid black;
 	}
 }
